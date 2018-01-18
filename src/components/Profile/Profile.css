@@ -1,0 +1,64 @@
+.me {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.pic{
+  width: auto;
+  height: 50%;
+}
+
+.name{
+  padding-top: 8%;
+  opacity: 1;
+  font-size: 5vh;
+  font-weight: bolder;
+}
+
+.job {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3vh;
+  opacity: 1;
+}
+
+.links{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.l {
+  margin-top: 3%;
+  font-weight: bold;
+  font-size: 3vh;
+  text-decoration: none;
+  color: #16a085;
+  transition: all .3s ease-in-out;
+}
+
+.l:hover {
+  color: darkgreen;
+}
+
+@media screen and (max-width: 1080px) {
+  .l {
+    font-size: 2.5vh;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  .pic {
+    width: 300px;
+    height: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.about {
+  height: inherit;
+  overflow-y: scroll;
+}
+
+.tab{
+  margin: 20px;
+  font-weight:bolder;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.title {
+  font-size: 30px;
+  color: darkgreen;
+  line-height: 1;
+}
