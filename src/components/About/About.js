@@ -28,8 +28,8 @@ class About extends Component {
           }}
           tabsBarStyle= {{
             height: '50px',
-            fontSize: '14px',
-            fontWeight: 'bolder'
+            fontSize: '15px',
+            fontWeight: '300',
           }}
           tabs={[
             {
