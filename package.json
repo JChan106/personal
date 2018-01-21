@@ -2,7 +2,7 @@
   "name": "personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jchan106.github.io/personal",
+  "homepage": "https://jackieschan.me",
   "dependencies": {
     "all": "0.0.0",
     "fsevents": "^1.1.3",
