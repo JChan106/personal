@@ -16,8 +16,8 @@
 .name{
   text-align: center;
   margin: 6%;
-  opacity: 1;
-  font-size: 4.5vh;
+  opacity: 18;
+  font-size: 35px;
   font-weight: 400;
 }
 
@@ -26,7 +26,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: 'red';
 }
 
 .l {
@@ -45,6 +44,9 @@
 @media screen and (max-width: 1080px) {
   .l {
     font-size: 2.5vh;
+  }
+  .pic {
+    height: 40%;
   }
 }
 

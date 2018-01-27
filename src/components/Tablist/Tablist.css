@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1080px) {
+  .nav {
+    font-size: 14px;
+  }
+}

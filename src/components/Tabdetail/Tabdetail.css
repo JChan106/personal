@@ -1,0 +1,29 @@
+.about {
+  height: inherit;
+  overflow-y: scroll;
+}
+
+.tab{
+  /* margin: 20px; */
+  font-weight:300;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.title {
+  font-size: 25px;
+  color: darkgreen;
+  line-height: 1;
+}
+
+.detail {
+  padding: 15px;
+  height: inherit;
+  overflow-y: scroll;
+}
+
+/* @media screen and (max-height: 600px) {
+  .detail {
+    height: 87%;
+  }
+} */
