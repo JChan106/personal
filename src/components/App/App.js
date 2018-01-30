@@ -27,6 +27,7 @@ class App extends Component {
           <Tablist
             tabs={this.state.tabs}
             onTabSelect={selectedTab => this.setState({selectedTab})}
+            selectedTab={this.state.selectedTab}
           />
           <Tabdetail tab={this.state.selectedTab}/>
         </div>

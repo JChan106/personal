@@ -4,12 +4,26 @@
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
-  border-color: lightgrey;
   background-color: lightgrey;
   transition: all 0.5s ease-in-out,
 }
 
 .nav-item:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.lol {
+  /* min-width: 50px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; */
+  background-color: white;
+  transition: all 0.5s ease-in-out,
+}
+
+.lol:hover {
   cursor: pointer;
   background-color: white;
 }
