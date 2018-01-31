@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Tabslist from './../Tablist/Tablist';
 import './Tabdetail.css';
 
 class Tabdetail extends Component {

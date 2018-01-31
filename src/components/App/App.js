@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Profile from './../Profile/Profile';
 import Tabdetail from './../Tabdetail/Tabdetail';
 import Tablist from './../Tablist/Tablist';
-
+// import Granim from 'react-granim';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +13,8 @@ class App extends Component {
       selectedTab: null,
     }
   }
+
+
 
   componentDidMount () {
     this.setState({

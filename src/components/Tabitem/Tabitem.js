@@ -19,7 +19,7 @@ class Tabitem extends Component {
     const tabItem = this.props.tab.title;
     return (
       <div
-        className={this.props.selectedTab == this.props.tab ? 'nav-item lol' : 'nav-item'}
+        className={this.props.selectedTab === this.props.tab ? 'nav-item lol' : 'nav-item'}
         onClick={this.handleClick}
       >
         {tabItem}
