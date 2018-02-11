@@ -1,6 +1,8 @@
 .about {
   height: inherit;
   overflow-y: scroll;
+  text-decoration: none;
+
 }
 
 .tab{
@@ -20,6 +22,15 @@
   padding: 15px;
   height: inherit;
   overflow-y: scroll;
+}
+
+a {
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 /* @media screen and (max-height: 600px) {

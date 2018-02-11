@@ -9,14 +9,9 @@
     "gh-pages": "^1.1.0",
     "module": "^1.2.5",
     "react": "^15.0.0",
-    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^15.0.0",
     "react-granim": "^1.1.0",
-    "react-granim-canvas": "^1.0.2",
-    "react-scripts": "1.0.17",
-    "react-scrollbar": "^0.5.1",
-    "react-scrollbar-js": "^1.0.1",
-    "react-tabs-navigation": "^0.4.4"
+    "react-scripts": "1.0.17"
   },
   "scripts": {
     "predeploy": "npm run build",
