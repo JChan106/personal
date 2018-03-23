@@ -33,7 +33,7 @@ class App extends Component {
         <div className='main'>
           <div className='spacer'></div>
           <div className={this.state.showInfo ? 'name left' : 'name center'}>
-            <img className={this.state.showInfo ? 'pic pappear' : 'pic phide'}src="p2.jpg"></img>
+            <img className={this.state.showInfo ? 'pic pappear' : 'pic phide'}src="pic3.jpg"></img>
             <div className="dropdown">
               <a style={{color: 'white'}} onClick={this.handlePress} className="btn-3d red">JACKIE CHAN</a>
               <Profile/>
