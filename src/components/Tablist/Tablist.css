@@ -1,10 +1,9 @@
-.nav {
+.nBar {
   display: flex;
   flex-direction: row;
-}
-
-@media screen and (max-width: 1080px) {
-  .nav {
-    font-size: 14px;
-  }
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(209, 209, 209, .5);
+  /* padding: 10px; */
+  /* border-radius: 20px 20px 0px 0px; */
 }

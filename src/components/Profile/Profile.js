@@ -1,21 +1,15 @@
 import React, { Component } from 'react';
 import './Profile.css'
 
-class Profile extends Component {
-  render() {
-    return (
-      <div className="me">
-        <img className="pic" src='p2.jpg' alt="personal of Jackie"/>
-        <div className= "name">Jackie Chan</div>
-        <div className="links">
-          <a href="resume.pdf" className="l resume">Resume</a>
-          <a href="mailto:jackisivchan@gmail.com" className="l email">Email</a>
-          <a href="" className="l linkedin">Linkedin</a>
-          <a href="https://github.com/JChan106" className="l github">Github</a>
-        </div>
-      </div>
-    );
-  }
+const Profile = (props) => {
+  return (
+    <div className="dropdown-content">
+      <a href="resume.pdf"><img className="l resume" src="r.png" width="15" height="20"></img></a>
+      <a href="mailto:jackisivchan@gmail.com" ><img className="l email" src="email.png" width="20" height="20"></img></a>
+      <a href="https://www.linkedin.com/in/jackiesivchan/" ><img className="l linkedin" src="li.png" width="20" height="20"></img></a>
+      <a href="https://github.com/JChan106"><img className="l github" src="Octocat.png" width="25" height="20"></img></a>
+    </div>
+  );
 }
 
 export default Profile;

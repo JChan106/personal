@@ -1,16 +1,40 @@
 .nav-item {
-  min-width: 50px;
-  margin: 0px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width:inherit;
+  height: inherit;
+  /* margin: 0px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border-radius: 20px; */
   text-align: center;
-  background-color: lightgrey;
+  /* background-color: #e74c3c; */
+  transition: all 0.3s ease-in-out;
+  color: grey;
+}
+
+.tabbar {
+  width: inherit;
+}
+
+.sline {
+  height: 3px;
+  background-color: #e74c3c;
   transition: all 0.5s ease-in-out,
+}
+
+.line {
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s,
 }
 
 .nav-item:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: #d1d1d1;
+  /* border-radius: 0px; */
+  color: black;
+
 }
 
 .lol {
@@ -19,11 +43,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center; */
-  background-color: white;
+  color: black;
   transition: all 0.5s ease-in-out,
 }
 
 .lol:hover {
   cursor: pointer;
-  background-color: white;
+  /* background-color: white; */
 }

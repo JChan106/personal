@@ -18,11 +18,14 @@ class Tabitem extends Component {
   render() {
     const tabItem = this.props.tab.title;
     return (
-      <div
-        className={this.props.selectedTab === this.props.tab ? 'nav-item lol' : 'nav-item'}
-        onClick={this.handleClick}
-      >
-        {tabItem}
+      <div className='tabbar'>
+        <div
+          className={this.props.selectedTab === this.props.tab ? 'nav-item lol' : 'nav-item'}
+          onClick={this.handleClick}
+        >
+          {tabItem}
+        </div>
+        <div className={this.props.selectedTab === this.props.tab ? 'sline' : 'line'}></div>
       </div>
     );
   }

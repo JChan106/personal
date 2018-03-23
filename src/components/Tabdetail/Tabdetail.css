@@ -1,8 +1,8 @@
 .about {
-  height: inherit;
+  /* height: inherit;
   overflow-y: scroll;
   text-decoration: none;
-
+  background-color: white; */
 }
 
 .tab{
@@ -14,24 +14,33 @@
 
 .title {
   font-size: 25px;
-  color: darkgreen;
+  color: darkgrey;
   line-height: 1;
+  padding-bottom: 10px;
+  transition: all .2s;
+}
+
+.title:hover {
+  text-decoration: none;
+
 }
 
 .detail {
-  padding: 15px;
+  padding: 20px;
   height: inherit;
   overflow-y: scroll;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), transparent);
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  /* border-radius: 0px 0px 20px 20px; */
 }
 
-a {
+/* a {
   transition: all .3s ease-in-out;
 }
 
 a:hover {
-  color: black;
   text-decoration: none;
-}
+} */
 
 /* @media screen and (max-height: 600px) {
   .detail {

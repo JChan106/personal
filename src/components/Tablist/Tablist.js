@@ -12,15 +12,16 @@ class Tablist extends Component {
   }
   render() {
     const tabItems = this.props.tabs.map((tab) => {
-      return <Tabitem
+      return (
+        <Tabitem
         onTabSelect={this.props.onTabSelect}
         tab={tab}
         key={tab.key}
         selectedTab={this.props.selectedTab}
-        />
+        />)
     })
     return (
-      <div className='nav nav-pills nav-fill'>
+      <div className='nBar'>
         {tabItems}
       </div>
     );

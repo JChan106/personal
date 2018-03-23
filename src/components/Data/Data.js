@@ -10,7 +10,7 @@ export default [
             <li>Hi! Some of my
             hobbies are basketball, weightlifting, and fashion. Here is a quote
             that I follow with my heart from one of my favorite actors: <br/>
-            <i>"Don't try to be like Jackie. There is only one Jackie. Study computers instead."<br/>-Jackie Chan</i>
+            <i>"Don't try to be like Jackie. There is only one Jackie. Study computers instead."<br/>-Jackie Chan, Actor</i>
             </li>
           </ul>
         <div className='title'>Education</div>
