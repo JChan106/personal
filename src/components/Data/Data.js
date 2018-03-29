@@ -33,7 +33,7 @@ export default [
         <ul>
           <li>HTML/CSS/Javascript</li>
           <li>C++</li>
-          <li>C#</li>
+          <li>Java</li>
           <li>Python</li>
           <li>Excel VBA</li>
           <li>SQL</li>
@@ -73,13 +73,13 @@ export default [
     title:'Projects',
     detail: (
       <div className='tab three'>
-        <div className='title'>DoodlyDoo</div>
+        <div className='title'><img className='gifs' src='https://i.imgur.com/k3OP6Kf.gif' width="80" height="125"/>DoodlyDoo</div>
         <ul>
           <li>Created an appointment app, which allows users to plan events.</li>
           <li>Main features include a friends list, user permissions of who they can invite, commenting section of appointments, and more.</li>
           <li>Built using React Native, Redux, Firebase, and Bootstrap.</li>
         </ul>
-        <div className='title'>PostPin</div>
+        <div className='title'><img className='gifs' src='https://i.imgur.com/rMnXxkj.gif' width="125" height="125"/>PostPin</div>
         <ul>
           <li>Created a Multi-page web app which provides College students a platform to Buy/Sell/Trade</li>
           <li> Made using good practices: collaborators made pull requests, Kanban board to organize tasks, weekly meetings</li>

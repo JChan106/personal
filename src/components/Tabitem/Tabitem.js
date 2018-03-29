@@ -20,7 +20,7 @@ class Tabitem extends Component {
     return (
       <div className='tabbar'>
         <div
-          className={this.props.selectedTab === this.props.tab ? 'nav-item lol' : 'nav-item'}
+          className={this.props.selectedTab === this.props.tab ? 'nav-item selected' : 'nav-item'}
           onClick={this.handleClick}
         >
           {tabItem}

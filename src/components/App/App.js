@@ -31,11 +31,10 @@ class App extends Component {
     return (
       <div className='container'>
         <div className='main'>
-          <div className='spacer'></div>
           <div className={this.state.showInfo ? 'name left' : 'name center'}>
-            <img className={this.state.showInfo ? 'pic pappear' : 'pic phide'}src="pic3.jpg"></img>
+            <img className={this.state.showInfo ? 'pic pappear' : 'pic phide'}src="pic4.jpg"></img>
             <div className="dropdown">
-              <a style={{color: 'white'}} onClick={this.handlePress} className="btn-3d red">JACKIE CHAN</a>
+              <div onClick={this.handlePress} className={this.state.showInfo ? 'btn blkbtn' : 'btn redbtn'}>JACKIE CHAN</div>
               <Profile/>
             </div>
           </div>
