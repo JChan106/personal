@@ -85,7 +85,7 @@ export default [
           <li> Made using good practices: collaborators made pull requests, Kanban board to organize tasks, weekly meetings</li>
           <li>Built using: ReactJS, Sass, Bootstrap, Firebase, and Webpack</li>
         </ul>
-        <a href='http://jackieschan.me' className='title'>jackieschan.me</a>
+        <div className='title'><img className='gifs' src='https://i.imgur.com/t08bpkb.gif' width="125" height="125"/><a href='http://jackieschan.me' className='title'>jackieschan.me</a></div>
         <ul>
           <li>Made personal website using ReactJS</li>
           <li>Gained familiarity with Flexbox, animations, React, Bootstrap</li>
