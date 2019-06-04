@@ -59,20 +59,16 @@ class About extends Component {
                     <li>HTML/CSS/Javascript</li>
                     <li>C++</li>
                     <li>C#</li>
-                    <li>Python</li>
                     <li>Excel VBA</li>
                     <li>SQL</li>
-                    <li>PHP</li>
                     <li>Git</li>
                   </ul>
                   <div className='title'>Frameworks and Libraries</div>
                   <ul>
                     <li>React</li>
-                    <li>Bootstrap</li>
                     <li>Redux</li>
-                    <li>JQuery</li>
+                    <li>Bootstrap</li>
                     <li>Sass</li>
-                    <li>Selenium</li>
                   </ul>
                   <div className='title'>Other</div>
                   <ul>
@@ -87,8 +83,9 @@ class About extends Component {
                   <ul>
                     <li>Object Oriented Programming</li>
                     <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
                     <li>Machine Learning</li>
-                    <li>Software Engineering</li>
+                    <li>Information Retrieval</li>
                   </ul>
                 </div>
               ),

@@ -9,7 +9,7 @@ export default [
           <ul>
             <li>Hi! Some of my
             hobbies are basketball, weightlifting, and fashion. Here is a quote
-            that I follow with my heart from one of my favorite actors: <br/>
+            that I follow from one of my favorite actors: <br/>
             <i>"Don't try to be like Jackie. There is only one Jackie. Study computers instead."<br/>-Jackie Chan, Actor</i>
             </li>
           </ul>
@@ -33,11 +33,9 @@ export default [
         <ul>
           <li>HTML/CSS/Javascript</li>
           <li>C++</li>
-          <li>Java</li>
-          <li>Python</li>
+          <li>C#</li>
           <li>Excel VBA</li>
           <li>SQL</li>
-          <li>PHP</li>
           <li>Git</li>
         </ul>
         <div className='title'>Frameworks and Libraries</div>
@@ -47,7 +45,6 @@ export default [
           <li>Redux</li>
           <li>JQuery</li>
           <li>Sass</li>
-          <li>Selenium</li>
         </ul>
         <div className='title'>Other</div>
         <ul>
